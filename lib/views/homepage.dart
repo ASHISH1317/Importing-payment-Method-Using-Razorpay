@@ -37,7 +37,7 @@ class _HomeState extends State<Home> {
       "description": "When one gives, two get happy",
       "prefill": {
         "contact": " ",
-        "email": " "
+        "email": " ",
       },
       "external": {
         "wallets": ["paytm"]
@@ -77,7 +77,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.deepOrange,
       title: Text("SimPay"),
         leading: Icon(
           Icons.menu,
@@ -109,7 +109,7 @@ class _HomeState extends State<Home> {
         decoration: BoxDecoration(
           color: Colors.lightBlueAccent,
           image: const DecorationImage(
-            image: NetworkImage('https://st2.depositphotos.com/6518310/9406/v/950/depositphotos_94060362-stock-illustration-charity-and-donation-background.jpg'),
+            image: NetworkImage('https://images.pexels.com/photos/4467127/pexels-photo-4467127.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'),
             fit: BoxFit.cover,
           ),
         ),
@@ -136,7 +136,7 @@ class _HomeState extends State<Home> {
             ),
             SizedBox(height: 12,),
             RaisedButton(
-              color: Colors.redAccent,
+              color: Colors.deepOrange,
               child: Text("Donate", style: TextStyle(
                   color: Colors.white
               ),),
